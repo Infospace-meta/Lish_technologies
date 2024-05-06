@@ -16,20 +16,20 @@
         </div>
         <ul class="nav-list" :class="{ open: isMobileNavOpen }">
           <li class="active">
-            <a href="#">Home</a>
+            <Router-link to="/">Home</Router-link>
           </li>
           <li>
-            <a href="#">About</a>
+            <Router-link to="/about">About</Router-link>
             <ul class="dropdown-list">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Our Services</a></li>
-              <li><a href="#">Our Team</a></li>
-              <li><a href="#">Our Projects</a></li>
-              <li><a href="#">Training</a></li>
+              <li><Router-link to="/about-us">About us</Router-link></li>
+              <li><Router-link to="/services">Our Services</Router-link></li>
+              <li><Router-link to="/team">Our Team</Router-link></li>
+              <li><Router-link to="/projects">Our Projects</Router-link></li>
+              <li><Router-link to="/training">Training</Router-link></li>
             </ul>
           </li>
-          <li><a href="#">FAQs</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><Router-link to="/faqs">FAQs</Router-link></li>
+          <li><Router-link to="/contact">Contact</Router-link></li>
           <li>
             <button class="btn">Join Us</button>
           </li>
@@ -44,8 +44,10 @@
 
 <script setup>
 import { ref } from 'vue';
+import { useRouter } from 'vue-router';
 
 const isMobileNavOpen = ref(false);
+const Router = useRouter();
 
 function toggleMobileNav() {
   isMobileNavOpen.value = !isMobileNavOpen.value;
@@ -78,13 +80,7 @@ window.onload = addRequiredClass;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
-:root {
-  --primary: #933ded;
-  --dark: #232323;
-  --pure: #fff;
-  --smoke: whitesmoke;
-  --dark-gray: #999;
-}
+
 
 body {
   font-family: "Lato", sans-serif;
