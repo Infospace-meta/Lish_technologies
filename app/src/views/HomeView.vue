@@ -1,11 +1,13 @@
 <template>
   <div>
-<Hero1/>
+    <Hero/>
+    <Tech/>
   </div>
 </template>
 
 <script setup>
-import Hero1 from "./components/Hero1.vue";
+import Hero from '../components/Hero.vue';
+import Tech from '../components/Tech.vue';
 </script>
 
 <style lang="scss" scoped>
