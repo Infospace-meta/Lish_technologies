@@ -31,16 +31,16 @@
         </div>
       </div>
 
-      <!-- div holding social media icons and the portal link -->
+      <!-- div holding social media icons and the portfolio link -->
       <div class="w-full mt-5 mx-auto flex flex-col justify-start md:w-1/4">
         <!-- social media icons -->
 
         <div class="w-1/2 mx-auto flex justify-between">
           <img src="../assets/facebook.png" alt="" />
-          <img src="../assets/youtube.png" alt="" />
+          <img src="../assets/twitter.png" alt="" />
           <img src="../assets/instagram.png" alt="" />
         </div>
-        <!-- the portal link -->
+        <!-- the portfolio link -->
         <div class="mt-3 w-1/2 mx-auto md:w-48">
           <button
             class="bg-white text-pink-900 w-full p-3 rounded hover:bg-pink-200"
