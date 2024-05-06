@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-950 font-Lato, sans-serif text-white">
+  <div class="bg-blue-950 font-Lato, sans-serif text-white p-3">
     <nav>
       <div class="container nav-wrapper">
         <div class="brand">
