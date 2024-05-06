@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-blue-950 font-Lato, sans-serif text-white">
     <nav>
       <div class="container nav-wrapper">
         <div class="brand">
@@ -79,13 +79,6 @@ window.onload = addRequiredClass;
   margin: 0;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
-}
-
-
-body {
-  font-family: "Lato", sans-serif;
-  background: #232323;
-  color: #fff;
 }
 
 .container {
