@@ -1,7 +1,7 @@
 <template>
   <div class="bg-blue-950 p-4">
     <div class="text-6xl md:text-9xl text-center text-white font-bold">
-      <span class="text-gradient-to-r from-blue-500 to-blue-300">YOUR BEST </span><br />
+      <span class="">YOUR BEST </span><br />
       <span class="italic font-normal">IT</span> PARTNERS
     </div>
     <br />

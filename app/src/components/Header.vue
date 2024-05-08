@@ -1,8 +1,8 @@
 <template>
   <div class="bg-blue-950 font-Lato, sans-serif text-white p-3">
     <nav>
-      <div class="container nav-wrapper">
-        <div class="brand">
+      <div class="container nav-wrapper flex text-center items-center justify-between">
+        <div class="brand flex items-center">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
             <path
               d="M10.5 10a2.5 2.5 0 1 1-5.001-.001A2.5 2.5 0 0 1 10.5 10zM16 4v12c0 1.1-.9 2-2 2H2c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2zm-3.5 6a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0zm6.715-4.914L17 6.562v7l2.215 1.477a.505.505 0 0 0 .785-.42V5.506a.505.505 0 0 0-.785-.42z"
@@ -15,7 +15,7 @@
           <span></span>
           <span></span>
         </div>
-        <ul class="nav-list" :class="{ open: isMobileNavOpen }">
+        <ul class="nav-list flex items-center" :class="{ open: isMobileNavOpen }">
           <li>
             <RouterLink to="/" class="text-purple-500">Home</RouterLink>
           </li>
@@ -32,10 +32,10 @@
           <li><RouterLink to="/faqs" class="text-red-500  hover:text-purple-500">FAQs</RouterLink></li>
           <li><RouterLink to="/contact" class="text-red-500  hover:text-purple-500">Contact</RouterLink></li>
           <li>
-            <button class="btn">Join Us</button>
+            <button class="border rounded-full p-2 border-purple-500 hover:text-purple-500">Join Us</button>
           </li>
           <li>
-            <button class="btn">View Portfolio</button>
+            <button class="border rounded-full p-2 border-purple-500 hover:text-purple-500">View Portfolio</button>
           </li>
         </ul>
       </div>
@@ -83,16 +83,6 @@ window.onload = addRequiredClass;
   margin: 0 auto;
 }
 
-.nav-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.brand {
-  display: flex;
-  align-items: center;
-}
 
 .brand svg {
   height: 30px;
@@ -103,33 +93,13 @@ window.onload = addRequiredClass;
   fill: #232323;
 }
 
-.nav-wrapper ul.nav-list {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-}
+
 .nav-wrapper ul.nav-list li {
   margin-left: 30px;
   padding: 20px 0;
   position: relative;
 }
 
-.btn {
-  background: #933ded;
-  color: black;
-  outline: none;
-  padding: 8px 20px;
-  font-size: 14px;
-  cursor: pointer;
-  letter-spacing: 1px;
-  border: 1px solid transparent;
-  transition: all 0.5s ease-in-out;
-}
-
-.btn:hover {
-  background: transparent;
-  border-color: #fff;
-}
 nav ul.dropdown-list {
   list-style-type: none;
   display: block;
