@@ -8,7 +8,12 @@
      solutions to businesses of all <br>sizes. Our team of experienced professionals is dedicated  to helping
      you achieve <br>your goals and thrive in a rapidly evolving digital landscape.
 </div>
-<br><br><br>
+<br><br><br><br>
 
-         </div>
+        
+         <div class="flex justify-between items-center text-center"><div class="text-blue-950 font-semibold"><span class="text-5xl font-bold ">100+ </span><br> <br>Successful Projects</div>
+  <div class="w-60 h-0 border-b border-gray-800"></div><div class="font-semibold text-blue-950"><span class="text-5xl font-bold text-blue-950">98% </span><br><br>Satisfied Clients</div>
+ <div class="w-60 h-0 border-t border-gray-800"></div><div class="text-blue-950 font-semibold"><span class="text-5xl font-bold">5+</span><br><br>Handled Countries</div>
+</div><br><br><br>
+ </div>
 </template>
