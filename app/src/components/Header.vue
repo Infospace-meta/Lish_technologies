@@ -25,7 +25,7 @@
             <RouterLink to="/" class="text-purple-500">Home</RouterLink>
           </li>
           <li>
-            <RouterLink to="#" class="text-red-500 hover:text-purple-500"
+            <RouterLink to="#" class="text-white hover:text-purple-500"
               >About</RouterLink
             >
             <ul
@@ -59,28 +59,30 @@
             </ul>
           </li>
           <li>
-            <RouterLink to="/faqs" class="text-red-500 hover:text-purple-500"
+            <RouterLink to="/faqs" class="text-white hover:text-purple-500"
               >FAQs</RouterLink
             >
           </li>
           <li>
-            <RouterLink to="/contact" class="text-red-500 hover:text-purple-500"
+            <RouterLink to="/contact" class="text-white hover:text-purple-500"
               >Contact</RouterLink
             >
           </li>
           <li>
-            <button
+            <router-link
+              to="/Signup"
               class="border rounded-lg p-2 border-purple-500 hover:text-purple-500"
             >
               Join Us
-            </button>
+            </router-link>
           </li>
           <li>
-            <button
+          <router-link
+              to="/#"
               class="border rounded-lg p-2 border-purple-500 hover:text-purple-500"
             >
-              View Portfolio
-            </button>
+              View portfolio
+            </router-link>
           </li>
         </ul>
       </div>
