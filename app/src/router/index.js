@@ -2,12 +2,14 @@ import { createRouter, createWebHistory } from "vue-router";
 import { HomeView, PostsView, DetailsView, LoginView,} from "../views";
 import { useAuthStore } from "../store";
 import ContactView from "../views/ContactView.vue";
+import FaqsView from "../views/FaqsView.vue";
 
 const routes = [
   { path: "/", name: "home", component: HomeView },
   { path: "/login", name: "login", component: LoginView },
   { path: "/posts", name: "posts", component: PostsView },
   { path: "/contact", name: "contact", component: ContactView },
+  { path: "/faqs", name: "faqs", component: FaqsView },
   { path: "/posts/:id", name: "details", component: DetailsView, props: true },
 ];
 

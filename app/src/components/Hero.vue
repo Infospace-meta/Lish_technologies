@@ -12,7 +12,9 @@
     </div>
     <br /><br />
     <router-link to="/about us" class="mx-auto">
-      <button class="mx-auto border border-white bg-blue-950 text-white font-bold py-2 px-4 rounded-full flex items-center justify-center">
+      <button
+        class="mx-auto border border-white bg-blue-950 text-white font-bold py-2 px-4 rounded-full flex items-center justify-center"
+      >
         EXPLORE NOW
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +38,7 @@
     <br /><br />
     <div class="grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row md:gap-52">
       <div class="flex items-center justify-center flex-col mb-8 md:ml-12">
-        <img src="@/assets/4.png" />
+        <img src="@/assets/4.png" class="transition hover:scale-125" />
         <div class="text-white text-center">
           <span class="text-xl md:text-2xl font-semibold">Expertise</span><br />
           Our team of experienced experts<br />
@@ -46,7 +48,7 @@
         </div>
       </div>
       <div class="flex items-center justify-center flex-col mb-8">
-        <img src="@/assets/3.png" />
+        <img src="@/assets/3.png" class="transition hover:scale-125" />
         <div class="text-white text-center">
           <span class="text-xl md:text-2xl font-semibold">Technology</span
           ><br />
@@ -57,7 +59,7 @@
         </div>
       </div>
       <div class="flex items-center justify-center flex-col mb-8">
-        <img src="@/assets/2.png" />
+        <img src="@/assets/2.png" class="transition hover:scale-125" />
         <div class="text-white text-center">
           <span class="text-xl md:text-2xl font-semibold">Solutions</span><br />
           We take a personalized approach<br />
@@ -67,7 +69,7 @@
         </div>
       </div>
       <div class="flex items-center justify-center flex-col mb-8">
-        <img src="@/assets/1.png" />
+        <img src="@/assets/1.png" class="transition hover:scale-125"/>
         <div class="text-white text-center">
           <span class="text-xl md:text-2xl font-semibold">Results</span><br />
           Our track record speaks for itself -<br />

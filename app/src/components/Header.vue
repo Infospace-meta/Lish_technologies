@@ -1,7 +1,9 @@
 <template>
   <div class="bg-blue-950 font-Lato, sans-serif text-white p-3">
     <nav>
-      <div class="container nav-wrapper flex text-center items-center justify-between">
+      <div
+        class="container nav-wrapper flex text-center items-center justify-between"
+      >
         <div class="brand flex items-center">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
             <path
@@ -15,27 +17,70 @@
           <span></span>
           <span></span>
         </div>
-        <ul class="nav-list flex items-center" :class="{ open: isMobileNavOpen }">
+        <ul
+          class="nav-list flex items-center"
+          :class="{ open: isMobileNavOpen }"
+        >
           <li>
             <RouterLink to="/" class="text-purple-500">Home</RouterLink>
           </li>
           <li>
-            <RouterLink to="#" class="text-red-500  hover:text-purple-500">About</RouterLink>
-            <ul class="dropdown-list bg-gradient-to-r from-gray-500 to-gray-900">
-              <li><RouterLink to="/about-us" class="hover:text-purple-500">About us</RouterLink></li>
-              <li><RouterLink to="/services" class="hover:text-purple-500">Our Services</RouterLink></li>
-              <li><RouterLink to="/team" class="hover:text-purple-500">Our Team</RouterLink></li>
-              <li><RouterLink to="/projects" class="hover:text-purple-500">Our Projects</RouterLink></li>
-              <li><RouterLink to="/training" class="hover:text-purple-500">Training</RouterLink></li>
+            <RouterLink to="#" class="text-red-500 hover:text-purple-500"
+              >About</RouterLink
+            >
+            <ul
+              class="dropdown-list bg-gradient-to-r from-gray-500 to-gray-900"
+            >
+              <li>
+                <RouterLink to="/about-us" class="hover:text-purple-500"
+                  >About us</RouterLink
+                >
+              </li>
+              <li>
+                <RouterLink to="/services" class="hover:text-purple-500"
+                  >Our Services</RouterLink
+                >
+              </li>
+              <li>
+                <RouterLink to="/team" class="hover:text-purple-500"
+                  >Our Team</RouterLink
+                >
+              </li>
+              <li>
+                <RouterLink to="/projects" class="hover:text-purple-500"
+                  >Our Projects</RouterLink
+                >
+              </li>
+              <li>
+                <RouterLink to="/training" class="hover:text-purple-500"
+                  >Training</RouterLink
+                >
+              </li>
             </ul>
           </li>
-          <li><RouterLink to="/faqs" class="text-red-500  hover:text-purple-500">FAQs</RouterLink></li>
-          <li><RouterLink to="/contact" class="text-red-500  hover:text-purple-500">Contact</RouterLink></li>
           <li>
-            <button class="border rounded-full p-2 border-purple-500 hover:text-purple-500">Join Us</button>
+            <RouterLink to="/faqs" class="text-red-500 hover:text-purple-500"
+              >FAQs</RouterLink
+            >
           </li>
           <li>
-            <button class="border rounded-full p-2 border-purple-500 hover:text-purple-500">View Portfolio</button>
+            <RouterLink to="/contact" class="text-red-500 hover:text-purple-500"
+              >Contact</RouterLink
+            >
+          </li>
+          <li>
+            <button
+              class="border rounded-lg p-2 border-purple-500 hover:text-purple-500"
+            >
+              Join Us
+            </button>
+          </li>
+          <li>
+            <button
+              class="border rounded-lg p-2 border-purple-500 hover:text-purple-500"
+            >
+              View Portfolio
+            </button>
           </li>
         </ul>
       </div>
@@ -83,7 +128,6 @@ window.onload = addRequiredClass;
   margin: 0 auto;
 }
 
-
 .brand svg {
   height: 30px;
   margin-right: 10px;
@@ -92,7 +136,6 @@ window.onload = addRequiredClass;
 .brand svg path {
   fill: #232323;
 }
-
 
 .nav-wrapper ul.nav-list li {
   margin-left: 30px;
@@ -117,7 +160,6 @@ nav ul.dropdown-list {
   margin-left: 0;
   padding: 5px 0;
 }
-
 
 .nav-wrapper ul.nav-list li:hover .dropdown-list {
   opacity: 1;
@@ -185,7 +227,6 @@ nav ul.dropdown-list {
   transition: all 0.3 ease-in-out;
 }
 
-
 .mobile ul.dropdown-list {
   position: relative;
   background: transparent;
@@ -205,5 +246,4 @@ nav ul.dropdown-list {
   margin-left: 0;
   text-align: center;
 }
-
 </style>

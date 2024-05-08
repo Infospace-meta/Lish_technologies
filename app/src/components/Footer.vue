@@ -1,9 +1,15 @@
 <template>
   <div class="flex flex-col p-6 bg-blue-950 max-w-full mx-auto">
-    <div class="text-white font-bold text-9xl mt-44 text-center">Need IT Solutions? <br>Let's <span class="italic font-normal
-      ">start now.</span><br><br></div>
+    <div class="text-white font-bold text-4xl lg:text-9xl mt-44 text-center">
+      Need IT Solutions? <br />Let's
+      <span class="italic font-normal">start now.</span><br /><br />
+    </div>
 
-      <div> <button class="mx-auto border border-white bg-blue-950 text-white font-bold py-2 px-4 rounded-md flex items-center justify-center">
+    <div>
+      <router-link to="/contact" class="mx-auto">
+      <button
+        class="mx-auto border border-white bg-blue-950 text-white font-bold py-2 px-4 rounded-full flex items-center justify-center"
+      >
         GET FREE CONSULTATION
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +24,9 @@
             d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
           />
         </svg>
-      </button></div>
+      </button>
+    </router-link>
+    </div>
     <div class="w-full flex flex-col md:flex-row m-3 justify-evenly mt-36">
       <!-- logo -->
       <div class="logo hidden w-1/4 sm:block">
@@ -31,11 +39,29 @@
         <!-- navbar -->
         <nav class="flex flex-col gap-2">
           <ul>
-            <li><a href="#" class="hover:underline">HOME</a></li>
-            <li><a href="#" class="hover:underline">ABOUT US</a></li>
-            <li><a href="#" class="hover:underline">OUR TEAM</a></li>
-            <li><a href="#" class="hover:underline">SERVICES</a></li>
-            <li><a href="#" class="hover:underline">CONTACT</a></li>
+            <li>
+            <RouterLink to="/" class="text-purple-500">Home</RouterLink>
+          </li>
+          <li>
+                <RouterLink to="/about-us" class="hover:text-purple-500"
+                  >About us</RouterLink
+                >
+              </li>
+              <li>
+                <RouterLink to="/team" class="hover:text-purple-500"
+                  >Our team</RouterLink
+                >
+              </li>
+              <li>
+                <RouterLink to="/services" class="hover:text-purple-500"
+                  >Services</RouterLink
+                >
+              </li>
+              <li>
+                <RouterLink to="/contact" class="hover:text-purple-500"
+                  >Contact</RouterLink
+                >
+              </li>
           </ul>
         </nav>
 
@@ -55,9 +81,9 @@
         <!-- social media icons -->
 
         <div class="w-1/2 mx-auto flex justify-between">
-          <img src="../assets/facebook.png" alt="" />
-          <img src="../assets/twitter.png" alt="" />
-          <img src="../assets/instagram.png" alt="" />
+          <img src="../assets/facebook.png" class="transition hover:scale-125" alt="" />
+          <img src="../assets/twitter.png" class="transition hover:scale-125" alt="" />
+          <img src="../assets/instagram.png" class="transition hover:scale-125" alt="" />
         </div>
         <!-- the portfolio link -->
         <div class="mt-3 w-1/2 mx-auto md:w-48">
