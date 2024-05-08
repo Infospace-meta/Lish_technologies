@@ -6,7 +6,7 @@
       informative blog. <br />From industry news to expert tips , we've got you
       covered.
     </div>
-    <div class="flex flex-row gap-20 ml-80">
+    <div class="flex flex-col lg:flex-row gap-20 ml-8 lg:ml-80 md:items-center">
       <div>
         <div class="w-96 h-0 border-b border-gray-800 mt-12"></div>
         <br /><br />
