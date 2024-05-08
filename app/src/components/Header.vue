@@ -5,7 +5,8 @@
         <div class="brand">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
             <path
-              d="M10.5 10a2.5 2.5 0 1 1-5.001-.001A2.5 2.5 0 0 1 10.5 10zM16 4v12c0 1.1-.9 2-2 2H2c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2zm-3.5 6a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0zm6.715-4.914L17 6.562v7l2.215 1.477a.505.505 0 0 0 .785-.42V5.506a.505.505 0 0 0-.785-.42z" />
+              d="M10.5 10a2.5 2.5 0 1 1-5.001-.001A2.5 2.5 0 0 1 10.5 10zM16 4v12c0 1.1-.9 2-2 2H2c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2zm-3.5 6a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0zm6.715-4.914L17 6.562v7l2.215 1.477a.505.505 0 0 0 .785-.42V5.506a.505.505 0 0 0-.785-.42z"
+            />
           </svg>
           <span><strong>LISH TECH</strong></span>
         </div>
@@ -15,21 +16,21 @@
           <span></span>
         </div>
         <ul class="nav-list" :class="{ open: isMobileNavOpen }">
-          <li class="active">
-            <Router-link to="/">Home</Router-link>
+          <li>
+            <RouterLink to="/" class="text-purple-500">Home</RouterLink>
           </li>
           <li>
-            <Router-link to="#">About</Router-link>
-            <ul class="dropdown-list">
-              <li><Router-link to="/about-us">About us</Router-link></li>
-              <li><Router-link to="/services">Our Services</Router-link></li>
-              <li><Router-link to="/team">Our Team</Router-link></li>
-              <li><Router-link to="/projects">Our Projects</Router-link></li>
-              <li><Router-link to="/training">Training</Router-link></li>
+            <RouterLink to="#" class="text-red-500  hover:text-purple-500">About</RouterLink>
+            <ul class="dropdown-list bg-gradient-to-r from-gray-500 to-gray-900">
+              <li><RouterLink to="/about-us" class="hover:text-purple-500">About us</RouterLink></li>
+              <li><RouterLink to="/services" class="hover:text-purple-500">Our Services</RouterLink></li>
+              <li><RouterLink to="/team" class="hover:text-purple-500">Our Team</RouterLink></li>
+              <li><RouterLink to="/projects" class="hover:text-purple-500">Our Projects</RouterLink></li>
+              <li><RouterLink to="/training" class="hover:text-purple-500">Training</RouterLink></li>
             </ul>
           </li>
-          <li><Router-link to="/faqs">FAQs</Router-link></li>
-          <li><Router-link to="/contact">Contact</Router-link></li>
+          <li><RouterLink to="/faqs" class="text-red-500  hover:text-purple-500">FAQs</RouterLink></li>
+          <li><RouterLink to="/contact" class="text-red-500  hover:text-purple-500">Contact</RouterLink></li>
           <li>
             <button class="btn">Join Us</button>
           </li>
@@ -43,8 +44,8 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import { useRouter } from 'vue-router';
+import { ref } from "vue";
+import { useRouter } from "vue-router";
 
 const isMobileNavOpen = ref(false);
 const Router = useRouter();
@@ -53,23 +54,18 @@ function toggleMobileNav() {
   isMobileNavOpen.value = !isMobileNavOpen.value;
 }
 
-window.addEventListener('resize', addRequiredClass);
+window.addEventListener("resize", addRequiredClass);
 
 function addRequiredClass() {
   if (window.innerWidth < 860) {
-    document.body.classList.add('mobile');
+    document.body.classList.add("mobile");
   } else {
-    document.body.classList.remove('mobile');
+    document.body.classList.remove("mobile");
   }
 }
 
 window.onload = addRequiredClass;
 </script>
-
-
-<style lang="scss" scoped>
-/* Your styles go here */
-</style>
 
 <style lang="scss" scoped>
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap");
@@ -118,18 +114,6 @@ window.onload = addRequiredClass;
   position: relative;
 }
 
-.nav-wrapper ul.nav-list li a {
-  color: red;
-  text-decoration: none;
-  letter-spacing: 1px;
-  transition: all 0.5s ease-in-out;
-}
-
-.nav-wrapper ul.nav-list li a:hover,
-.nav-wrapper ul.nav-list li.active a {
-  color: #933ded;
-}
-
 .btn {
   background: #933ded;
   color: black;
@@ -149,7 +133,6 @@ window.onload = addRequiredClass;
 nav ul.dropdown-list {
   list-style-type: none;
   display: block;
-  background: whitesmoke;
   padding: 6px 16px;
   position: absolute;
   width: max-content;
@@ -165,9 +148,6 @@ nav ul.dropdown-list {
   padding: 5px 0;
 }
 
-.nav-wrapper ul.dropdown-list li a {
-  color: #232323;
-}
 
 .nav-wrapper ul.nav-list li:hover .dropdown-list {
   opacity: 1;
@@ -235,9 +215,6 @@ nav ul.dropdown-list {
   transition: all 0.3 ease-in-out;
 }
 
-.mobile ul.nav-list li a {
-  font-size: 20px;
-}
 
 .mobile ul.dropdown-list {
   position: relative;
@@ -259,7 +236,4 @@ nav ul.dropdown-list {
   text-align: center;
 }
 
-.mobile .nav-wrapper ul.dropdown-list li a {
-  color: #999;
-}
 </style>
