@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col p-6 bg-gradient-to-r from-cyan-500 to-blue-500 max-w-full mx-auto">
+  <div class="flex flex-col p-6 bg-blue-950 max-w-full mx-auto">
     <div class="w-full flex flex-col md:flex-row m-3 justify-evenly">
       <!-- logo -->
       <div class="logo hidden w-1/4 sm:block">
@@ -7,7 +7,7 @@
       </div>
 
       <div
-        class="cont_infor flex w-full justify-evenly text-black mx-auto flex-row items-start md:w-2/4"
+        class="cont_infor flex w-full justify-evenly text-white mx-auto flex-row items-start md:w-2/4"
       >
         <!-- navbar -->
         <nav class="flex flex-col gap-2">

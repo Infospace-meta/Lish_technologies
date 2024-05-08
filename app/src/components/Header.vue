@@ -19,7 +19,7 @@
             <Router-link to="/">Home</Router-link>
           </li>
           <li>
-            <Router-link to="/about">About</Router-link>
+            <Router-link to="#">About</Router-link>
             <ul class="dropdown-list">
               <li><Router-link to="/about-us">About us</Router-link></li>
               <li><Router-link to="/services">Our Services</Router-link></li>
