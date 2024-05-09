@@ -5,6 +5,7 @@ import ContactView from "../views/ContactView.vue";
 import FaqsView from "../views/FaqsView.vue";
 import SignUpFormView from "../views/SignUpFormView.vue";
 import LoginFormView from "../views/LoginFormView.vue";
+import ServicesView from "../views/ServicesView.vue";
 
 const routes = [
   { path: "/", name: "home", component: HomeView },
@@ -14,6 +15,7 @@ const routes = [
   { path: "/faqs", name: "faqs", component: FaqsView },
   { path: "/Signup", name: "Signup", component: SignUpFormView },
   { path: "/Login", name: "Login", component: LoginFormView },
+  { path: "/services", name: "services", component: ServicesView },
   { path: "/posts/:id", name: "details", component: DetailsView, props: true },
 ];
 
