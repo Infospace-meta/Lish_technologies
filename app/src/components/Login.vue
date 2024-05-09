@@ -9,17 +9,18 @@
           <h1 class="block text-2xl font-bold text-gray-800">Sign In</h1>
           <p class="mt-2 text-sm text-gray-600">
             Don't have an account?
-            <a
+            <RouterLink to="/Signup"
               class="text-blue-600 decoration-2 hover:underline font-medium"
               href="#"
             >
               Sign up here
-            </a>
+            </RouterLink>
           </p>
         </div>
 
         <div class="mt-5">
           <!-- Sign up Google Button -->
+          <RouterLink to="/Signup">
           <button
             type="button"
             class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-xl border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
@@ -50,6 +51,7 @@
             </svg>
             Sign In with Google
           </button>
+        </RouterLink>
 
           <div
             class="py-3 flex items-center text-xs text-gray-400 uppercase before:flex-[1_1_0%] before:border-t before:border-gray-200 before:me-6 after:flex-[1_1_0%] after:border-t after:border-gray-200 after:ms-6"
@@ -163,6 +165,8 @@
 </template>
 
 <script setup>
+import { RouterLink } from 'vue-router';
+
 
 </script>
 
