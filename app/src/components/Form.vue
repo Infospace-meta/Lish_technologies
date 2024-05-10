@@ -2,13 +2,10 @@
   <div
     class="flex flex-col justify-center items-center md:flex-row gap-4 md:gap-24"
   >
-    <div class="image-container relative">
-      <img
-        class="mt-8 md:mt-0"
-        src="../assets/Tech.avif"
-      />
+    <div class="image-container relative transition hover:scale-125">
+      <img class="mt-8 md:mt-0" src="../assets/Tech.avif" />
       <div
-        class="text-overlay absolute left-0 top-0 mt-8 text-white font-semibold text-lg md:text-2xl text-center md:text-left"
+        class="text-overlay absolute left-0 top-0 mt-8 text-white font-semibold text-lg md:text- xl text-center md:text-left lg:p-4"
       >
         Untitled UI is the real deal. We've worked with a dozen agencies and
         most of them don't truly understand programmatic SEO. Working with
@@ -66,7 +63,7 @@
           id="email"
           name="email"
           class="mt-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none w-full md:w-96 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-          placeholder="you@company.com"
+          placeholder="johnDoe@.com"
         />
       </div>
       <div class="mb-4">
