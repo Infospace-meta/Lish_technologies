@@ -36,11 +36,7 @@
                   >About us</RouterLink
                 >
               </li>
-              <li>
-                <RouterLink to="/services" class="hover:text-purple-500"
-                  >Our Services</RouterLink
-                >
-              </li>
+            
               <li>
                 <RouterLink to="/team" class="hover:text-purple-500"
                   >Our Team</RouterLink
@@ -60,7 +56,7 @@
           </li>
           <li>
             <RouterLink to="/faqs" class="text-white hover:text-purple-500"
-              >FAQs</RouterLink
+              >Services</RouterLink
             >
           </li>
           <li>

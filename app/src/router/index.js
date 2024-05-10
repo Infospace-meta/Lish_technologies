@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from "vue-router";
 import { HomeView, PostsView, DetailsView, LoginView,} from "../views";
 import { useAuthStore } from "../store";
 import ContactView from "../views/ContactView.vue";
-import FaqsView from "../views/FaqsView.vue";
 import SignUpFormView from "../views/SignUpFormView.vue";
 import LoginFormView from "../views/LoginFormView.vue";
 import ServicesView from "../views/ServicesView.vue";
@@ -12,7 +11,6 @@ const routes = [
   // { path: "/login", name: "login", component: LoginView },
   { path: "/posts", name: "posts", component: PostsView },
   { path: "/contact", name: "contact", component: ContactView },
-  { path: "/faqs", name: "faqs", component: FaqsView },
   { path: "/Signup", name: "Signup", component: SignUpFormView },
   { path: "/Login", name: "Login", component: LoginFormView },
   { path: "/services", name: "services", component: ServicesView },
