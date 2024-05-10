@@ -5,7 +5,7 @@
     >
       We believe that
       <span class="italic font-normal">technology <br /></span>can
-      <span class="text-black">change</span> the world.
+      <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-700">change</span> the world.
     </div>
     <br /><br />
     <div class="text-blue-950 text-center text-xl font-semibold">

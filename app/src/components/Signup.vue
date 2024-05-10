@@ -106,7 +106,7 @@
       <div class="">
         <img
           class="w-full h-auto object-cover rounded-2xl hidden lg:block"
-          src="https://images.unsplash.com/photo-1470290378698-263fa7ca60ab?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="../assets/Tech.avif"
           alt="conctact form image"
         />
       </div>

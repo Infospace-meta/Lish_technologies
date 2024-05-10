@@ -36,7 +36,7 @@
                   >About us</RouterLink
                 >
               </li>
-            
+
               <li>
                 <RouterLink to="/team" class="hover:text-purple-500"
                   >Our Team</RouterLink
@@ -55,7 +55,7 @@
             </ul>
           </li>
           <li>
-            <RouterLink to="/faqs" class="text-white hover:text-purple-500"
+            <RouterLink to="/services" class="text-white hover:text-purple-500"
               >Services</RouterLink
             >
           </li>
@@ -73,7 +73,7 @@
             </router-link>
           </li>
           <li>
-          <router-link
+            <router-link
               to="/#"
               class="border rounded-lg p-2 border-purple-500 hover:text-purple-500"
             >

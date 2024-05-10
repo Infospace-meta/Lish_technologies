@@ -1,7 +1,10 @@
 <template>
   <div class="bg-blue-950 p-4">
     <div class="text-6xl md:text-9xl text-center text-white font-bold">
-      <span class="">YOUR BEST </span><br />
+      <span
+        class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-700"
+        >YOUR BEST </span
+      ><br />
       <span class="italic font-normal">IT</span> PARTNERS
     </div>
     <br />
@@ -69,7 +72,7 @@
         </div>
       </div>
       <div class="flex items-center justify-center flex-col mb-8">
-        <img src="@/assets/1.png" class="transition hover:scale-125"/>
+        <img src="@/assets/1.png" class="transition hover:scale-125" />
         <div class="text-white text-center">
           <span class="text-xl md:text-2xl font-semibold">Results</span><br />
           Our track record speaks for itself -<br />

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="py-20">
+        <section class="py-20 shadow-2xl shadow-blue-500 transition hover:scale-95">
   <div class="max-w-7xl mx-auto px-4 sm:px-8">
     <div class="py-8 px-4 mx-auto max-w-7xl text-center lg:py-8 lg:px-0">
     <h1
@@ -8,12 +8,12 @@
     >
       Frequently
       <span
-        class="text-transparent bg-clip-text bg-gradient-to-r from-blue-100 to-red-700"
+        class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-700"
       >
         Asked
       </span>
       <span 
-        class="text-transparent bg-clip-text bg-gradient-to-r from-red-50 to-green-700">
+        class="text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-black">
       Questions
       </span>
     </h1>
