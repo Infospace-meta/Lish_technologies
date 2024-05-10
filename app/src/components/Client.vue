@@ -1,9 +1,9 @@
 <template>
   <div class="bg-blue-950">
-    <div class="font-bold text-white text-7xl pt-24 ml-24">Client Stories</div>
+    <div class="font-bold text-white text-7xl pt-24 ml-24 lg:ml-0">Client Stories</div>
     <br /><br /><br />
 
-    <div class="flex flex-col md:flex-col lg:flex-row md:gap-48 ml-4 md:ml-24">
+    <div class="flex flex-col md:flex-col lg:flex-row md:gap-48 ml-4 lg:ml-24">
       <div class="mb-8 md:mb-0">
         <span class="font-bold text-green-400 text-5xl">Amazing!</span>
         <br /><br />
@@ -14,7 +14,7 @@
           ensured compliance with industry regulations."
         </span>
         <br /><br />
-        <div class="flex items-center ml-96">
+        <div class="flex items-center ml-96 lg:ml-0">
           <div class="rounded-full overflow-hidden h-12 w-12 mr-2">
             <img src="@/assets/p.jpg" alt="Profile Picture" />
           </div>
@@ -35,7 +35,7 @@
           improve efficiency, saving us time and money."
         </span>
         <br /><br />
-        <div class="flex items-center ml-96">
+        <div class="flex items-center ml-96 lg:ml-0">
           <div class="rounded-full overflow-hidden h-12 w-12 mr-2">
             <img src="@/assets/p.jpg" alt="Profile Picture" />
           </div>

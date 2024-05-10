@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col p-6 bg-blue-950 max-w-full mx-auto">
     <div class="text-white font-bold text-4xl lg:text-9xl mt-44 text-center">
-      Need IT Solutions? <br />Let's
+      <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-700">Need IT Solutions? </span><br />Let's
       <span class="italic font-normal">start now.</span><br /><br />
     </div>
 

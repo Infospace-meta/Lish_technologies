@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-950 font-Lato, sans-serif text-white p-3">
+  <div class="bg-blue-950 font-Lato, sans-serif text-white p-3 sticky top-0">
     <nav>
       <div
         class="container nav-wrapper flex text-center items-center justify-between"
