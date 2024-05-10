@@ -40,7 +40,7 @@
     </div>
     <br /><br />
     <div class="grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row md:gap-52">
-      <div class="flex items-center justify-center flex-col mb-8 md:ml-12 transition hover:scale-125">
+      <div class="flex items-center justify-center flex-col mb-14 md:ml-12 transition hover:scale-125">
         <img src="@/assets/4.png" class="" />
         <div class="text-white text-center">
           <span class="text-xl md:text-2xl font-semibold">Expertise</span><br />
