@@ -40,8 +40,8 @@
     </div>
     <br /><br />
     <div class="grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row md:gap-52">
-      <div class="flex items-center justify-center flex-col mb-8 md:ml-12">
-        <img src="@/assets/4.png" class="transition hover:scale-125" />
+      <div class="flex items-center justify-center flex-col mb-8 md:ml-12 transition hover:scale-125">
+        <img src="@/assets/4.png" class="" />
         <div class="text-white text-center">
           <span class="text-xl md:text-2xl font-semibold">Expertise</span><br />
           Our team of experienced experts<br />
@@ -50,8 +50,8 @@
           that meet your unique needs.
         </div>
       </div>
-      <div class="flex items-center justify-center flex-col mb-8">
-        <img src="@/assets/3.png" class="transition hover:scale-125" />
+      <div class="flex items-center justify-center flex-col mb-8 transition hover:scale-125">
+        <img src="@/assets/3.png" class="" />
         <div class="text-white text-center">
           <span class="text-xl md:text-2xl font-semibold">Technology</span
           ><br />
@@ -61,8 +61,8 @@
           advanced solutions available.
         </div>
       </div>
-      <div class="flex items-center justify-center flex-col mb-8">
-        <img src="@/assets/2.png" class="transition hover:scale-125" />
+      <div class="flex items-center justify-center flex-col mb-8 transition hover:scale-125">
+        <img src="@/assets/2.png" class="" />
         <div class="text-white text-center">
           <span class="text-xl md:text-2xl font-semibold">Solutions</span><br />
           We take a personalized approach<br />
@@ -71,8 +71,8 @@
           business and create solutions.
         </div>
       </div>
-      <div class="flex items-center justify-center flex-col mb-8">
-        <img src="@/assets/1.png" class="transition hover:scale-125" />
+      <div class="flex items-center justify-center flex-col mb-8 transition hover:scale-125">
+        <img src="@/assets/1.png" class="" />
         <div class="text-white text-center">
           <span class="text-xl md:text-2xl font-semibold">Results</span><br />
           Our track record speaks for itself -<br />
