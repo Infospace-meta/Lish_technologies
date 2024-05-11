@@ -12,73 +12,99 @@
           </svg>
           <span><strong>LISH TECH</strong></span>
         </div>
+
         <div class="hamburger" @click="toggleMobileNav">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span :class="{ active: isMobileNavOpen }"></span>
+          <span :class="{ active: isMobileNavOpen }"></span>
+          <span :class="{ active: isMobileNavOpen }"></span>
         </div>
         <ul
           class="nav-list flex items-center"
           :class="{ open: isMobileNavOpen }"
         >
           <li>
-            <RouterLink to="/" class="text-purple-500">Home</RouterLink>
+            <RouterLink
+              @click.native="closeMobileNav"
+              to="/"
+              class="text-purple-500"
+              >Home</RouterLink
+            >
           </li>
           <li>
-            <RouterLink to="#" class="text-white hover:text-purple-500"
+            <RouterLink
+              @click.native="closeMobileNav"
+              to="#"
+              class="text-white hover:text-purple-500"
               >About</RouterLink
             >
             <ul
               class="dropdown-list bg-gradient-to-r from-gray-500 to-gray-900"
             >
               <li>
-                <RouterLink to="/about-us" class="hover:text-purple-500"
+                <RouterLink
+                  @click.native="closeMobileNav"
+                  to="/about-us"
+                  class="hover:text-purple-500"
                   >About us</RouterLink
                 >
               </li>
-
               <li>
-                <RouterLink to="/team" class="hover:text-purple-500"
+                <RouterLink
+                  @click.native="closeMobileNav"
+                  to="/team"
+                  class="hover:text-purple-500"
                   >Our Team</RouterLink
                 >
               </li>
               <li>
-                <RouterLink to="/projects" class="hover:text-purple-500"
+                <RouterLink
+                  @click.native="closeMobileNav"
+                  to="/projects"
+                  class="hover:text-purple-500"
                   >Our Projects</RouterLink
                 >
               </li>
               <li>
-                <RouterLink to="/training" class="hover:text-purple-500"
+                <RouterLink
+                  @click.native="closeMobileNav"
+                  to="/training"
+                  class="hover:text-purple-500"
                   >Training</RouterLink
                 >
               </li>
             </ul>
           </li>
           <li>
-            <RouterLink to="/services" class="text-white hover:text-purple-500"
+            <RouterLink
+              @click.native="closeMobileNav"
+              to="/services"
+              class="text-white hover:text-purple-500"
               >Services</RouterLink
             >
           </li>
           <li>
-            <RouterLink to="/contact" class="text-white hover:text-purple-500"
+            <RouterLink
+              @click.native="closeMobileNav"
+              to="/contact"
+              class="text-white hover:text-purple-500"
               >Contact</RouterLink
             >
           </li>
           <li>
             <router-link
+              @click.native="closeMobileNav"
               to="/Signup"
               class="border rounded-lg p-2 border-purple-500 hover:text-purple-500"
+              >Join Us</router-link
             >
-              Join Us
-            </router-link>
           </li>
           <li>
             <router-link
+              @click.native="closeMobileNav"
               to="/#"
               class="border rounded-lg p-2 border-purple-500 hover:text-purple-500"
+              >View portfolio</router-link
             >
-              View portfolio
-            </router-link>
           </li>
         </ul>
       </div>
@@ -95,6 +121,10 @@ const Router = useRouter();
 
 function toggleMobileNav() {
   isMobileNavOpen.value = !isMobileNavOpen.value;
+}
+
+function closeMobileNav() {
+  isMobileNavOpen.value = false;
 }
 
 window.addEventListener("resize", addRequiredClass);
@@ -243,5 +273,17 @@ nav ul.dropdown-list {
 .mobile ul.nav-list li {
   margin-left: 0;
   text-align: center;
+}
+
+.hamburger span.active:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger span.active:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger span.active:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
 }
 </style>

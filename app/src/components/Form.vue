@@ -2,8 +2,8 @@
   <div
     class="flex flex-col justify-center items-center md:flex-row gap-4 md:gap-24"
   >
-    <div class="image-container relative transition hover:scale-125">
-      <img class="mt-8 md:mt-0" src="../assets/Tech.avif" />
+    <!-- <div class="image-container relative transition hover:scale-125">
+      <img class="mt-8 md:mt-0 hidden md:block sm:block" src="../assets/Tech.avif" />
       <div
         class="text-overlay absolute left-0 top-0 mt-8 text-white font-semibold text-lg md:text- xl text-center md:text-left lg:p-4"
       >
@@ -13,7 +13,7 @@
         fresh air. <br /><br />
         <span class="font-normal text-sm md:text-md">- Ellie Simpsom</span>
       </div>
-    </div>
+    </div> -->
 
     <div class="md:w-1/2">
       <div class="font-bold text-blue-950 mt-8 text-center md:text-left">
@@ -160,11 +160,13 @@
         </div>
       </div>
       <div class="text-center mb-12">
+        <RouterLink to="./">
         <button
           class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 rounded-md h-12 text-center items-center"
         >
           GET STARTED
         </button>
+      </RouterLink>
       </div>
     </div>
   </div>
@@ -173,5 +175,4 @@
 <script setup></script>
 
 <style lang="scss" scoped>
-/* Additional styling can be added here */
 </style>
