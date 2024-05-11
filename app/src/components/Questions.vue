@@ -62,19 +62,19 @@ const faqs = ref([
   {
     question: "What programming languages are most in-demand?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ipsum sapien. Vestibulum molestie porttitor augue vitae vulputate. Aliquam nec ex maximus, suscipit diam vel, tristique tellus.",
+      "The most in-demand programming languages often include Python, JavaScript, Java, C++, and others. However, the specific demand can vary depending on industry and region.",
     open: false,
   },
   {
     question: "How can I improve my cybersecurity skills?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ipsum sapien. Vestibulum molestie porttitor augue vitae vulputate. Aliquam nec ex maximus, suscipit diam vel, tristique tellus.",
+      "Improving cybersecurity skills involves staying updated with the latest security threats and technologies, participating in relevant training courses, practicing hands-on exercises like ethical hacking, and joining cybersecurity communities for knowledge sharing.",
     open: false,
   },
   {
     question: "What are the emerging trends in artificial intelligence?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ipsum sapien. Vestibulum molestie porttitor augue vitae vulputate. Aliquam nec ex maximus, suscipit diam vel, tristique tellus.",
+      "Emerging trends in artificial intelligence include deep learning, natural language processing, reinforcement learning, and the convergence of AI with other technologies like edge computing and blockchain.",
     open: false,
   },
 ]);
