@@ -1,6 +1,6 @@
 <template>
   <div class="bg-blue-950">
-    <div class="font-bold text-white text-7xl pt-24 ml-24 lg:ml-0">Client Stories</div>
+    <div class="font-bold text-white text-7xl pt-24 ml-24">Client Stories</div>
     <br /><br /><br />
 
     <div class="flex flex-col md:flex-col lg:flex-row md:gap-48 ml-4 lg:ml-24">
