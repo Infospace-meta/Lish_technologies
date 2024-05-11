@@ -173,5 +173,4 @@
 <script setup></script>
 
 <style lang="scss" scoped>
-/* Additional styling can be added here */
 </style>
