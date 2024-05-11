@@ -160,11 +160,13 @@
         </div>
       </div>
       <div class="text-center mb-12">
+        <RouterLink to="./">
         <button
           class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 rounded-md h-12 text-center items-center"
         >
           GET STARTED
         </button>
+      </RouterLink>
       </div>
     </div>
   </div>
