@@ -63,7 +63,7 @@
           id="email"
           name="email"
           class="mt-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none w-full md:w-96 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-          placeholder="johnDoe@.com"
+          placeholder="johnDoe@gmail.com"
         />
       </div>
       <div class="mb-4">
