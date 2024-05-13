@@ -13,7 +13,6 @@
               <h2 class="text-2xl font-semibold pb-4 text-white">
                 Useful Links
               </h2>
-              <!-- <img src="./assets/images/about/home_line.png" alt="" class="img-fluid"> -->
               <ul class="mt-4 text-gray-300">
                 <li>
                   <RouterLink to="/"
