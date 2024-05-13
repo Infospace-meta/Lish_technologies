@@ -15,8 +15,9 @@
       <p class="mb-6 font-normal text-sm text-gray-700 dark:text-gray-400">
         {{ service.description }}
       </p>
-      <a
-        :href="service.link"
+      <!--RouterLink-->
+      <RouterLink
+        :to="{ path: '/contact' }"
         class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
       >
         Contact Us
@@ -35,7 +36,7 @@
             d="M1 5h12m0 0L9 1m4 4L9 9"
           />
         </svg>
-      </a>
+      </RouterLink>
     </div>
   </div>
   <div class="text-center mt-12">
@@ -46,9 +47,10 @@
       <br />Services
     </div>
     <div class="text-black text-2xl mt-6">
-      At Lish, we are commited to providing exceptional digital solutions
-      tailored to suit your unique business needs. Our comprehensive service
-      offerings cover a wide spectrum of digital disciplines, including web
+      At Lish, we are committed to providing exceptional digital solutions
+      tailored to suit your unique business needs. Our <br />
+      comprehensive service offerings cover a wide spectrum of digital
+      disciplines, including web<br />
       design, app development, web development, and marketing.
     </div>
   </div>
