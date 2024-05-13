@@ -1,6 +1,6 @@
 <template>
   <div class="bg-blue-950 text-center">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center">
       <div class="bg-blue-950">
         <span
           class="text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl"
@@ -21,6 +21,8 @@
           every aspect of your <br />online presence
         </span>
       </div>
+      <img src="../assets/Digital.jpeg" alt="Your Image Alt Text" class="mt-8 w-full sm:w-auto" />
+    </div>
 
       <div
         class="text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold text-white mt-16 sm:mt-20 lg:mt-32"
@@ -35,5 +37,4 @@
         >
       </div>
     </div>
-  </div>
 </template>

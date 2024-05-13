@@ -3,8 +3,11 @@
     <div
       v-for="(service, index) in services"
       :key="index"
-      class="max-w-sm p-4 transition hover:scale-95 bg-gradient-to-b from-blue-800 to-blue-950 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      class="max-w-sm p-4 transition hover:scale-95 bg-gradient-to-b from-blue-800 to-blue-950 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
     >
+      <!-- Placeholder image -->
+      <img :src="service.image" alt="Service Image" class="w-full h-auto mb-4 rounded-lg">
+
       <a :href="service.link">
         <h5
           class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
@@ -66,24 +69,28 @@ export default {
           description:
             "Our Web Design Service is all about creating visually stunning and user-friendly Websites that leave a lasting impression on your audience. We blend creativity with functionality to deliver websites that showcase your brand's identity while ensuring seamless navigation and optimal user experience.",
           link: "#",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbXUNlAijYk2Od9qkPMBjICKF0QHDxB6cNLB6aSz8y6g&s", // Placeholder image URL
         },
         {
           title: "Web Development",
           description:
             "Our Web Development Service is focused on turning your Website into a powerful digital asset. We utilize the latest technologies and industry best practices to build dynamic and scalable websites that cater to your business objectives.",
           link: "#",
+          image: "https://clipground.com/images/web-development-logo-png-3.png", // Placeholder image URL
         },
         {
           title: "Mobile App Development",
           description:
             "With our Mobile Development service, we harness the power of mobile technology to create cutting-edge applications that engage your customers on-the-go. Our team of skilled developers builds feature-rich and intuitive apps for both Android and iOS platforms.",
           link: "#",
+          image: "https://www.webdeveloperoc.com/wp-content/uploads/2019/06/app-development.png", // Placeholder image URL
         },
         {
           title: "Digital Marketing",
           description:
             "In the digital age, marketing is a critical aspect of your business's success. Our Digital Marketing service employs data-driven strategies to enhance your brand's visibility, attract targeted traffic, and boost conversions. From SEO and PPC campaigns to social media marketing, we've got your digital marketing needs covered.",
           link: "#",
+          image: "https://img.favpng.com/0/12/0/digital-marketing-online-advertising-business-marketing-strategy-png-favpng-jCcbz9b6z0xG4P25ZEHV4CgDS_t.jpg", // Placeholder image URL
         },
       ],
     };
