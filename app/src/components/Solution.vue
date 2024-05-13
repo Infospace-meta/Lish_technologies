@@ -36,12 +36,6 @@
       </div>
     </div>
 
-    <div class="text-center">
-    <div class="text-white text-5xl font-bold mt-24"><span class="text-gray-400 font-bold text-5xl">Categories of </span>Services</div>
-<div class="text-white mt-12"> At LISH Tech, we are commited to providing exceptional digital solutions tailored to 
-    suit your  unique business needs .Our <br>comprehensive service offerings cover a wide spectrum of digital
-    disciplines , including web design , app development ,web <br>development ,and marketing.
-</div>
-</div><br><br><br>
+ <br><br><br>
   </div>
 </template>
