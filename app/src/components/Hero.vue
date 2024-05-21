@@ -14,7 +14,7 @@
       to delivering solutions that are tailored to your unique needs.
     </div>
     <br /><br />
-    <router-link to="/about us" class="mx-auto">
+    <router-link to="/aboutus" class="mx-auto">
       <button
         class="mx-auto border border-white bg-blue-950 text-white font-bold py-2 px-4 rounded-full flex items-center justify-center"
       >

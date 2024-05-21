@@ -20,7 +20,7 @@
                   >
                 </li>
                 <li>
-                  <RouterLink to="/about"
+                  <RouterLink to="/aboutus"
                     ><i class="fas fa-angle-right"></i> About Us</RouterLink
                   >
                 </li>
