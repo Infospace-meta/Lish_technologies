@@ -6,6 +6,9 @@ import SignUpFormView from "../views/SignUpFormView.vue";
 import LoginFormView from "../views/LoginFormView.vue";
 import ServicesView from "../views/servicesView.vue";
 import AboutUsView from "../views/AboutUsView.vue";
+import TeamView from "../views/TeamView.vue";
+import ProjectsView from "../views/ProjectsView.vue";
+import TrainingView from "../views/TrainingView.vue";
 
 
 const routes = [
@@ -16,7 +19,10 @@ const routes = [
   { path: "/contact", name: "contact", component: ContactView },
   { path: "/Signup", name: "Signup", component: SignUpFormView },
   { path: "/Login", name: "Login", component: LoginFormView },
+  { path: "/projects", name: "Our-projects", component: ProjectsView },
   { path: "/services", name: "services", component: ServicesView },
+  { path: "/team", name: "Our-Team", component: TeamView },
+  { path: "/training", name: "Training", component: TrainingView },
   { path: "/posts/:id", name: "details", component: DetailsView, props: true },
 ];
 
@@ -38,3 +44,4 @@ const router = createRouter({ history: createWebHistory(), routes });
 // });
 
 export default router;
+
