@@ -6,10 +6,12 @@ import SignUpFormView from "../views/SignUpFormView.vue";
 import LoginFormView from "../views/LoginFormView.vue";
 import ServicesView from "../views/ServicesView.vue";
 
+
 const routes = [
   { path: "/", name: "home", component: HomeView },
   // { path: "/login", name: "login", component: LoginView },
   { path: "/posts", name: "posts", component: PostsView },
+  
   { path: "/contact", name: "contact", component: ContactView },
   { path: "/Signup", name: "Signup", component: SignUpFormView },
   { path: "/Login", name: "Login", component: LoginFormView },
