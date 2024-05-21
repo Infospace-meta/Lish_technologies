@@ -34,30 +34,70 @@
           tailored software solutions. Our skilled team handles custom <br />
           applications, scalable architectures, and seamless system <br />
           integration</span
-        ><br><br>
+        ><br /><br />
         <span class="font-semibold text-black text-2xl"
           >Software IT Outsourcing</span
-        > <br>
+        >
+        <br />
         <span class="text-sm text-gray-600"
-          >VSTech provides trusted software IT outsourcing. We offer <br> expertise,
-          allowing businesses to focus on core competencies <br> while we handle
-          complex development projects.</span
-        ><br><br>
+          >VSTech provides trusted software IT outsourcing. We offer <br />
+          expertise, allowing businesses to focus on core competencies <br />
+          while we handle complex development projects.</span
+        ><br /><br />
         <li class="flex items-center space-x-3 rtl:space-x-reverse">
-         <svg class="flex-shrink-0 w-3.5 h-3.5 text-blue-500 dark:text-blue-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
-         </svg>
-        <span>Custom software solutions tailored to your specific needs</span>
-    </li>
+          <svg
+            class="flex-shrink-0 w-3.5 h-3.5 text-blue-500 dark:text-blue-400"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 16 12"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 5.917 5.724 10.5 15 1.5"
+            />
+          </svg>
+          <span>Custom software solutions tailored to your specific needs</span>
+        </li>
         <li class="flex items-center space-x-3 rtl:space-x-reverse">
-         <svg class="flex-shrink-0 w-3.5 h-3.5 text-blue-500 dark:text-blue-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
-         </svg>
-        <span>Advanced technologies and industry best practices</span>
-    </li> <br>
-    <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-  DISCOVER MORE
-</button>
+          <svg
+            class="flex-shrink-0 w-3.5 h-3.5 text-blue-500 dark:text-blue-400"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 16 12"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 5.917 5.724 10.5 15 1.5"
+            />
+          </svg>
+          <span>Advanced technologies and industry best practices</span>
+        </li>
+        <br />
+        <button
+          class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+        >
+          DISCOVER MORE
+        </button>
+      </div>
+    </div>
+    <div class="flex gap-14 justify-center p-16">
+      <div class="text-6xl text-blue-600 font-bold ">
+        Improve & Enhance the <br />
+        Tech Projects
+      </div>
+      <div class="text-lg text-gray-700">
+        Our team excels at improving and enhancing tech projects. We <br> optimize
+        systems, refine functionalities, and introduce <br> innovative solutions.
+        Leveraging cutting-edge technologies, we <br> ensure highly efficient and
+        effective outcomes for our clients
       </div>
     </div>
   </div>
