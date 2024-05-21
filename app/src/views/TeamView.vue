@@ -1,10 +1,12 @@
 <template>
     <div>
-
+<Ourteam/>
     </div>
 </template>
 
 <script setup>
+import Ourteam from '../components/Ourteam.vue';
+
 
 </script>
 
