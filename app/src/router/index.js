@@ -6,6 +6,8 @@ import SignUpFormView from "../views/SignUpFormView.vue";
 import LoginFormView from "../views/LoginFormView.vue";
 import ServicesView from "../views/servicesView.vue";
 import AboutUsView from "../views/AboutUsView.vue";
+import ServicesView from "../views/ServicesView.vue";
+
 
 const routes = [
   { path: "/", name: "home", component: HomeView },
