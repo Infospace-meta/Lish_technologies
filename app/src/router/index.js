@@ -9,6 +9,7 @@ import AboutUsView from "../views/AboutUsView.vue";
 import TeamView from "../views/TeamView.vue";
 import ProjectsView from "../views/ProjectsView.vue";
 import TrainingView from "../views/TrainingView.vue";
+import NotFoundView from "../views/NotFoundView.vue";
 
 
 const routes = [
@@ -19,6 +20,7 @@ const routes = [
   { path: "/contact", name: "contact", component: ContactView },
   { path: "/Signup", name: "Signup", component: SignUpFormView },
   { path: "/Login", name: "Login", component: LoginFormView },
+  { path: "/:PathMatch(.*)*", name: "Errorpage", component: NotFoundView },
   { path: "/projects", name: "Our-projects", component: ProjectsView },
   { path: "/services", name: "services", component: ServicesView },
   { path: "/team", name: "Our-Team", component: TeamView },
