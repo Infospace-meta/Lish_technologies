@@ -43,7 +43,7 @@
               <li>
                 <RouterLink
                   @click.native="closeMobileNav"
-                  to="/about-us"
+                  to="/aboutus"
                   class="hover:text-purple-500"
                   >About us</RouterLink
                 >
