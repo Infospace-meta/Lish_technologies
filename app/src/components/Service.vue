@@ -1,33 +1,49 @@
 <template>
+  <!-- Flex container for navigation and main content -->
   <div class="flex flex-col md:flex-row mb-10 mt-48">
+    <!-- Navigation sidebar -->
     <nav class="bg-gray-200 w-full md:w-1/4 py-4">
       <ul>
+        <!-- Loop through sections to display navigation links -->
         <li v-for="(section, index) in sections" :key="index">
+          <!-- Navigation link with icon -->
           <a
             href="#"
-            class="block py-2 px-4 text-gray-600 hover:text-gray-900"
+            class="py-2 px-4 text-gray-600 hover:text-gray-900 flex items-center"
             @click.prevent="toggleSection(index)"
-            >{{ section.title }}</a
           >
+            <!-- Icon for the section -->
+            <!-- <img :src="section.icon" alt="Section Icon" class="mr-2 w-6 h-6" /> -->
+            <!-- Title of the section -->
+            <span>{{ section.title }}</span>
+          </a>
         </li>
       </ul>
     </nav>
+    <!-- Main content area -->
     <main class="container mx-auto p-4 w-full md:w-3/4">
+      <!-- Loop through sections to display content -->
       <section
         v-for="(section, index) in sections"
         :key="index"
         :id="section.id"
         :class="{ hidden: section.hidden }"
       >
-        <h2 class="text-2xl font-bold mb-4">{{ section.title }}</h2>
-        <p class="mb-4">{{ section.content }}</p>
+        <!-- Section title -->
+        <h2 class="text-3xl font-bold mb-4">{{ section.title }}</h2>
+        <!-- Section content -->
+        <p class="mb-6 leading-relaxed">{{ section.content }}</p>
+        <!-- Grid for displaying features -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- Loop through features to display -->
           <div
             v-for="(feature, index) in section.features"
             :key="index"
             class="bg-white p-4 rounded-lg shadow-md shadow-blue-400"
           >
-            <h3 class="text-lg font-semibold mb-2">{{ feature.title }}</h3>
+            <!-- Feature title -->
+            <h3 class="text-xl font-semibold mb-2">{{ feature.title }}</h3>
+            <!-- Feature content -->
             <p class="text-gray-600">{{ feature.content }}</p>
           </div>
         </div>
@@ -203,7 +219,6 @@ const sections = ref([
     hidden: true,
   },
 ]);
-
 
 const toggleSection = (index) => {
   sections.value.forEach((section, i) => {

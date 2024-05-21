@@ -90,7 +90,7 @@ export default {
           description:
             "In the digital age, marketing is a critical aspect of your business's success. Our Digital Marketing service employs data-driven strategies to enhance your brand's visibility, attract targeted traffic, and boost conversions. From SEO and PPC campaigns to social media marketing, we've got your digital marketing needs covered.",
           link: "#",
-          image: "https://img.favpng.com/0/12/0/digital-marketing-online-advertising-business-marketing-strategy-png-favpng-jCcbz9b6z0xG4P25ZEHV4CgDS_t.jpg", // Placeholder image URL
+          image: "https://img.pikbest.com/png-images/digital-marketing-logo-design_1768071.png!sw800", // Placeholder image URL
         },
       ],
     };
