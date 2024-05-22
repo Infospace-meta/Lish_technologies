@@ -6,7 +6,11 @@
       class="max-w-sm p-4 transition hover:scale-95 bg-gradient-to-b from-blue-800 to-blue-950 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
     >
       <!-- Placeholder image -->
-      <img :src="service.image" alt="Service Image" class="w-full h-auto mb-4 rounded-lg">
+      <img
+        :src="service.image"
+        alt="Service Image"
+        class="w-full h-auto mb-4 rounded-lg"
+      />
 
       <a :href="service.link">
         <h5
@@ -69,7 +73,8 @@ export default {
           description:
             "Our Web Design Service is all about creating visually stunning and user-friendly Websites that leave a lasting impression on your audience. We blend creativity with functionality to deliver websites that showcase your brand's identity while ensuring seamless navigation and optimal user experience.",
           link: "#",
-          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbXUNlAijYk2Od9qkPMBjICKF0QHDxB6cNLB6aSz8y6g&s", // Placeholder image URL
+          image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbXUNlAijYk2Od9qkPMBjICKF0QHDxB6cNLB6aSz8y6g&s", // Placeholder image URL
         },
         {
           title: "Web Development",
@@ -83,14 +88,16 @@ export default {
           description:
             "With our Mobile Development service, we harness the power of mobile technology to create cutting-edge applications that engage your customers on-the-go. Our team of skilled developers builds feature-rich and intuitive apps for both Android and iOS platforms.",
           link: "#",
-          image: "https://www.webdeveloperoc.com/wp-content/uploads/2019/06/app-development.png", // Placeholder image URL
+          image:
+            "https://www.webdeveloperoc.com/wp-content/uploads/2019/06/app-development.png", // Placeholder image URL
         },
         {
           title: "Digital Marketing",
           description:
             "In the digital age, marketing is a critical aspect of your business's success. Our Digital Marketing service employs data-driven strategies to enhance your brand's visibility, attract targeted traffic, and boost conversions. From SEO and PPC campaigns to social media marketing, we've got your digital marketing needs covered.",
           link: "#",
-          image: "https://img.pikbest.com/png-images/digital-marketing-logo-design_1768071.png!sw800", // Placeholder image URL
+          image:
+            "https://img.pikbest.com/png-images/digital-marketing-logo-design_1768071.png!sw800", // Placeholder image URL
         },
       ],
     };

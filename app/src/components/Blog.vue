@@ -1,16 +1,23 @@
 <template>
   <div class="container mx-auto">
-    <div class="text-blue-950 font-bold text-4xl lg:text-6xl text-center mt-16">Blog</div>
-    <div class="text-blue-950 text-lg lg:text-xl text-center mt-6 lg:mt-12 font-semibold">
+    <div class="text-blue-950 font-bold text-4xl lg:text-6xl text-center mt-16">
+      Blog
+    </div>
+    <div
+      class="text-blue-950 text-lg lg:text-xl text-center mt-6 lg:mt-12 font-semibold"
+    >
       Stay up to date with the latest trends and insights in technology with our
       informative blog. <br />From industry news to expert tips, we've got you
       covered.
     </div>
-    <div class="flex flex-col lg:flex-row justify-center lg:justify-between gap-20 items-center mt-8 lg:mt-12">
+    <div
+      class="flex flex-col lg:flex-row justify-center lg:justify-between gap-20 items-center mt-8 lg:mt-12"
+    >
       <div class="text-center lg:text-left">
         <div class="w-full lg:w-96 h-0 border-b border-gray-800 mt-12"></div>
         <div class="text-blue-950 font-semibold">
-          T E C H <br /><br /><span class="text-blue-950 font-bold text-xl lg:text-2xl"
+          T E C H <br /><br /><span
+            class="text-blue-950 font-bold text-xl lg:text-2xl"
             >Why Cloud Computing is <br />Essential for your Business <br />in
             Year 2024 </span
           ><br /><br /><br /><span class="text-2xl">01.03</span>
@@ -39,7 +46,8 @@
       <div class="text-center lg:text-left">
         <div class="w-full lg:w-96 h-0 border-b border-gray-800 mt-12"></div>
         <div class="text-blue-950 font-semibold">
-          R E V I E W <br /><br /><span class="text-blue-950 font-bold text-xl lg:text-2xl"
+          R E V I E W <br /><br /><span
+            class="text-blue-950 font-bold text-xl lg:text-2xl"
             >5 Ways Software Developers <br />Can Boost Your Business
             <br />Quicker Than Ever </span
           ><br /><br /><br /><span class="text-2xl">20.05</span>
@@ -66,6 +74,7 @@
           />
         </svg>
       </button>
-    </div><br><br>
+    </div>
+    <br /><br />
   </div>
 </template>
