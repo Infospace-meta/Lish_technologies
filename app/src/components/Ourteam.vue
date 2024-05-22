@@ -1,4 +1,5 @@
 <template>
+  <div class="text-6xl font-bold text-center">OUR TEAM</div>
   <div class="container my-24 mx-auto md:px-6">
   <!-- Section: Design Block -->
   <section class="mb-32 text-center">
@@ -11,7 +12,7 @@
         <div
           class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
           <div class="relative overflow-hidden bg-cover bg-no-repeat">
-            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/6.jpg" class="w-full rounded-t-lg" />
+            <img src="@/assets/joe.jpg" class="w-full rounded-t-lg" />
             <a href="#!">
               <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
             </a>
@@ -23,8 +24,8 @@
             </svg>
           </div>
           <div class="p-6">
-            <h5 class="mb-4 text-lg font-bold">Maria Smith</h5>
-            <p class="mb-4 text-neutral-500 dark:text-neutral-300">Frontend Developer</p>
+            <h5 class="mb-4 text-lg font-bold">Joe Karanja</h5>
+            <p class="mb-4 text-neutral-500 dark:text-neutral-300">Software Developer</p>
             <ul class="mx-auto flex list-inside justify-center">
               <a href="#!" class="px-2">
                 <!-- GitHub -->
@@ -59,7 +60,7 @@
         <div
           class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
           <div class="relative overflow-hidden bg-cover bg-no-repeat">
-            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.jpg" class="w-full rounded-t-lg" />
+            <img src="@/assets/kimani.jpeg" class="w-full rounded-t-lg" />
             <a href="#!">
               <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
             </a>
@@ -71,8 +72,8 @@
             </svg>
           </div>
           <div class="p-6">
-            <h5 class="mb-4 text-lg font-bold">Darren Randolph</h5>
-            <p class="mb-4 text-neutral-500 dark:text-neutral-300">Marketing expert</p>
+            <h5 class="mb-4 text-lg font-bold">Immanuel Kimani</h5>
+            <p class="mb-4 text-neutral-500 dark:text-neutral-300">Software Developer</p>
             <ul class="mx-auto flex list-inside justify-center">
               <a href="#!" class="px-2">
                 <!-- Facebook -->
@@ -107,7 +108,7 @@
         <div
           class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
           <div class="relative overflow-hidden bg-cover bg-no-repeat">
-            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/15.jpg" class="w-full rounded-t-lg" />
+            <img src="@/assets/nell.jpg" class="w-full rounded-t-lg" />
             <a href="#!">
               <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
             </a>
@@ -119,8 +120,8 @@
             </svg>
           </div>
           <div class="p-6">
-            <h5 class="mb-4 text-lg font-bold">Ayat Black</h5>
-            <p class="mb-4 text-neutral-500 dark:text-neutral-300">Web designer</p>
+            <h5 class="mb-4 text-lg font-bold">Nelson Kamau</h5>
+            <p class="mb-4 text-neutral-500 dark:text-neutral-300">Software Developer</p>
             <ul class="mx-auto flex list-inside justify-center">
               <a href="#!" class="px-2">
                 <!-- Dribbble -->
