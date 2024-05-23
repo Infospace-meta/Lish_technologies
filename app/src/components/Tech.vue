@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white mx-auto max-w-full">
+  <div class="bg-white mx-auto max-w-full animate-fadeIn">
     <div
       class="mt-72 lg:text-8xl text-center font-semibold text-blue-950 text-4xl"
     >
@@ -13,7 +13,7 @@
     </div>
     <br /><br />
     <div class="text-blue-950 text-center text-xl font-semibold">
-      That's why we're committed to delivering inovative IT solutions to
+      That's why we're committed to delivering innovative IT solutions to
       businesses of all <br />sizes. Our team of experienced professionals is
       dedicated to helping you achieve <br />your goals and thrive in a rapidly
       evolving digital landscape.
@@ -40,3 +40,20 @@
     <br /><br /><br />
   </div>
 </template>
+
+<style>
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 3s ease forwards;
+}
+</style>
