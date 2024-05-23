@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-white mx-auto max-w-full">
+  <div class="bg-white mx-auto max-w-full ">
     <div
-      class="mt-72 lg:text-8xl text-center font-semibold text-blue-950 text-4xl"
+      class="mt-72 lg:text-8xl text-center font-semibold text-blue-950 text-4xl "
     >
       We believe that
       <span class="italic font-normal">technology <br /></span>can

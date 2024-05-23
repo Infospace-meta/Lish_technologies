@@ -8,6 +8,7 @@
 import Ourteam from '../components/Ourteam.vue';
 
 
+
 </script>
 
 <style lang="scss" scoped>

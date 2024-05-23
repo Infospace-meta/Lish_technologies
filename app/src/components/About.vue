@@ -58,10 +58,10 @@
             <img
               src="@/assets/End to end.png"
               alt="Profile Picture"
-              class="w-full lg:w-auto max-w-xs lg:max-w-none mb-4"
+              class="w-full lg:w-auto max-w-xs lg:max-w-none mb-4 animate-pulse"
             />
           </div>
-          <div class="lg:w-1/2 lg:px-12">
+          <div class="lg:w-1/2 lg:px-12 animate-bounce">
             <h2 class="font-semibold text-black text-xl md:text-2xl">
               End-to-End Development
             </h2>
@@ -99,7 +99,7 @@
 
         <!-- Cloud Solutions Section -->
         <div
-          class="lg:flex lg:items-center lg:justify-between mb-10 animate-slideInRight"
+          class="lg:flex lg:items-center lg:justify-between mb-10 animate-slideInRight "
         >
           <div
             class="lg:w-1/2 flex justify-center lg:justify-start mt-4 lg:mt-0"
@@ -176,7 +176,7 @@
 
         <!-- Improve & Enhance Section -->
         <div
-          class="flex flex-col lg:flex-row gap-6 md:gap-10 lg:gap-12 xl:gap-14 justify-center p-8 md:p-10 lg:p-12 xl:p-16 mt-8 animate-slideInUp"
+          class="flex flex-col lg:flex-row gap-6 md:gap-10 lg:gap-12 xl:gap-14 justify-center p-8 md:p-10 lg:p-12 xl:p-16 mt-8 animate-slideInUp "
         >
           <div class="text-4xl md:text-5xl lg:text-6xl text-blue-600 font-bold">
             Improve & Enhance the <br />
