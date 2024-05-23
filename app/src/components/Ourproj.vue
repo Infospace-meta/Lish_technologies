@@ -19,7 +19,7 @@
           <div class="flex gap-48">
           <div class="h-20 w-1 bg-blue-400 ml-2"> <span class="text-4xl "> 1500+ <br></span><span class="text-2xl font-semibold">CONNECTIONS</span></div>
           <div class="h-20 w-1 bg-blue-400 ml-2"> <span class="text-4xl "> 1+ <br></span><span class="text-2xl font-semibold">COUNTRIES</span></div>
-          <div class="h-20 w-1 bg-blue-400 ml-2"> <span class="text-4xl "> 2 <br></span><span class="text-2xl font-semibold">LANGUAGE </span></div>
+          <div class="h-20 w-1 bg-blue-400 ml-2"> <span class="text-4xl "> 2 <br></span><span class="text-2xl font-semibold">LANGUAGES </span></div>
         </div></div></div>
         
 <div class="text-5xl text-blue-950 font-bold text-center p-24">We solve society's big <br> challenges 
