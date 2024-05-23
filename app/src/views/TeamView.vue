@@ -1,16 +1,13 @@
 <template>
-    <div>
-<Ourteam/>
-    </div>
+  <div>
+    <meet />
+    <Ourteam />
+  </div>
 </template>
 
 <script setup>
-import Ourteam from '../components/Ourteam.vue';
-
-
-
+import meet from "../components/meet.vue";
+import Ourteam from "../components/Ourteam.vue";
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

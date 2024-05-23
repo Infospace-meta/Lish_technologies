@@ -1,13 +1,11 @@
 <template>
-    <div>
-<About/>
-    </div>
+  <div>
+    <About />
+  </div>
 </template>
 
 <script setup>
-import About from '../components/About.vue';
+import About from "../components/About.vue";
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

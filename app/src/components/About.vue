@@ -4,22 +4,68 @@
       <div class="text-black">
         <!-- Header Section -->
         <div
-          class="relative w-full h-96 bg-cover bg-center bg-no-repeat bg-[url('@/assets/Tech.avif')] mb-10"
+          class="lg:flex lg:items-center lg:justify-between mb-10 animate-slideInRight"
         >
-          <div
-            class="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50"
-          >
-            <p
-              class="font-bold uppercase text-3xl sm:text-5xl text-white animate-fadeIn"
+          <div class="lg:w-1/2 lg:px-12">
+            <h2
+              class="text-2xl md:text-3xl lg:text-4xl font-bold text-black mt-2 uppercase"
             >
               About us
+            </h2>
+            <p class="text-gray-600 text-xs md:text-sm lg:text-base mt-4">
+              We are a team of passionate individuals dedicated to creating
+              innovative solutions that enhance the way people interact with
+              technology. With expertise in design, development, and user
+              experience, we strive to make a positive impact on the world
+              through our work.
+            </p>
+          </div>
+          <div class="lg:w-1/2 flex justify-center lg:justify-end mt-4 lg:mt-0">
+            <img
+              src="@/assets/aboutus.gif"
+              alt="Profile Picture"
+              class="w-full lg:w-auto max-w-xs lg:max-w-none mb-4"
+            />
+          </div>
+        </div>
+        <div>
+          <hr
+            class="border-4 border-blue-500 max-w-full cover h-10 bg-blue-500"
+          />
+        </div>
+
+        <!-- who we are -->
+        <div
+          class="lg:flex lg:items-center lg:justify-between mb-10 animate-slideInLeft"
+        >
+          <div
+            class="lg:w-1/2 flex justify-center lg:justify-start mt-4 lg:mt-0"
+          >
+            <img
+              src="@/assets/whoweare.gif"
+              alt="Profile picture"
+              class="w-full lg:w-auto max-w-xs lg:max-w-none mb-4 animate-pulse"
+            />
+          </div>
+          <div class="lg:w-1/2 lg:px-12 animate-bounce">
+            <h2 class="font-semibold text-black text-xl md:text-2xl">
+              Who we are
+            </h2>
+            <p class="text-gray-600 text-xs md:text-sm lg:text-base mt-4">
+              [Your Company Name] is a leading provider of [Your Industry or
+              Services]. We specialize in [Specific Services or Solutions],
+              offering innovative solutions tailored to meet the unique needs of
+              our clients. Our dedicated team excels in delivering high-quality
+              [Products/Services] with a focus on [Your Unique Selling
+              Proposition]. We're committed to [Your Mission or Values],
+              striving to exceed expectations and drive success for our clients.
             </p>
           </div>
         </div>
 
         <!-- About Our Company Section -->
         <div
-          class="lg:flex lg:items-center lg:justify-between mb-10 animate-slideInLeft"
+          class="lg:flex lg:items-center lg:justify-between mb-10 animate-slideInRight"
         >
           <div class="lg:w-1/2 lg:px-12">
             <span class="text-blue-950 font-semibold">ABOUT OUR COMPANY</span>
@@ -50,7 +96,7 @@
 
         <!-- End-to-End Development Section with Swapped Content and Image -->
         <div
-          class="lg:flex lg:items-center lg:justify-between mb-10 animate-slideInRight"
+          class="lg:flex lg:items-center lg:justify-between mb-10 animate-slideInLeft"
         >
           <div
             class="lg:w-1/2 flex justify-center lg:justify-start mt-4 lg:mt-0"
@@ -76,7 +122,7 @@
 
         <!-- Software IT Outsourcing Section -->
         <div
-          class="lg:flex lg:items-center lg:justify-between mb-10 animate-slideInLeft"
+          class="lg:flex lg:items-center lg:justify-between mb-10 animate-slideInRight"
         >
           <div class="lg:w-1/2 lg:px-12">
             <h2 class="font-semibold text-black text-xl md:text-2xl">
@@ -99,7 +145,7 @@
 
         <!-- Cloud Solutions Section -->
         <div
-          class="lg:flex lg:items-center lg:justify-between mb-10 animate-slideInRight "
+          class="lg:flex lg:items-center lg:justify-between mb-10 animate-slideInLeft"
         >
           <div
             class="lg:w-1/2 flex justify-center lg:justify-start mt-4 lg:mt-0"
@@ -176,7 +222,7 @@
 
         <!-- Improve & Enhance Section -->
         <div
-          class="flex flex-col lg:flex-row gap-6 md:gap-10 lg:gap-12 xl:gap-14 justify-center p-8 md:p-10 lg:p-12 xl:p-16 mt-8 animate-slideInUp "
+          class="flex flex-col lg:flex-row gap-6 md:gap-10 lg:gap-12 xl:gap-14 justify-center p-8 md:p-10 lg:p-12 xl:p-16 mt-8 animate-slideInUp"
         >
           <div class="text-4xl md:text-5xl lg:text-6xl text-blue-600 font-bold">
             Improve & Enhance the <br />

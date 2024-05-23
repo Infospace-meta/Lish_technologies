@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1
-      class="flex justify-center items-center text-2xl mt-12 font-bold sm:mt-10 sm:text-4xl"
+      class="flex justify-center items-center text-2xl mt-12 font-bold sm:mt-10 sm:text-6xl uppercase mb-14"
     >
       Our Team
     </h1>
