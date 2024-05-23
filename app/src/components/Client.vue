@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-950">
+  <div class="bg-blue-950 animate-fadeIn">
     <div class="font-bold text-white text-7xl pt-24 ml-24">Client Stories</div>
     <br /><br /><br />
 

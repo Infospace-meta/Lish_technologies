@@ -1,6 +1,8 @@
 <template>
-  <div class="bg-blue-950 p-4">
-    <div class="text-6xl md:text-9xl text-center text-white font-bold">
+  <div class="bg-blue-950 p-4 animate-fadeIn">
+    <div
+      class="text-6xl md:text-9xl text-center text-white font-bold "
+    >
       <span
         class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-700"
         >YOUR BEST </span
@@ -16,7 +18,7 @@
     <br /><br />
     <router-link to="/aboutus" class="mx-auto">
       <button
-        class="mx-auto border border-white bg-blue-950 text-white font-bold py-2 px-4 rounded-full flex items-center justify-center"
+        class="mx-auto border border-white bg-blue-950 text-white font-bold py-2 px-4 rounded-full flex items-center justify-center animate-bounce"
       >
         EXPLORE NOW
         <svg
@@ -40,7 +42,9 @@
     </div>
     <br /><br />
     <div class="grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row md:gap-52">
-      <div class="flex items-center justify-center flex-col mb-14 md:ml-12 transition hover:scale-125">
+      <div
+        class="flex items-center justify-center flex-col mb-14 md:ml-12 transition hover:scale-125"
+      >
         <img src="@/assets/4.png" class="" />
         <div class="text-white text-center">
           <span class="text-xl md:text-2xl font-semibold">Expertise</span><br />
@@ -50,7 +54,9 @@
           that meet your unique needs.
         </div>
       </div>
-      <div class="flex items-center justify-center flex-col mb-8 transition hover:scale-125">
+      <div
+        class="flex items-center justify-center flex-col mb-8 transition hover:scale-125"
+      >
         <img src="@/assets/3.png" class="" />
         <div class="text-white text-center">
           <span class="text-xl md:text-2xl font-semibold">Technology</span
@@ -61,7 +67,9 @@
           advanced solutions available.
         </div>
       </div>
-      <div class="flex items-center justify-center flex-col mb-8 transition hover:scale-125">
+      <div
+        class="flex items-center justify-center flex-col mb-8 transition hover:scale-125"
+      >
         <img src="@/assets/2.png" class="" />
         <div class="text-white text-center">
           <span class="text-xl md:text-2xl font-semibold">Solutions</span><br />
@@ -71,7 +79,9 @@
           business and create solutions.
         </div>
       </div>
-      <div class="flex items-center justify-center flex-col mb-8 transition hover:scale-125">
+      <div
+        class="flex items-center justify-center flex-col mb-8 transition hover:scale-125"
+      >
         <img src="@/assets/1.png" class="" />
         <div class="text-white text-center">
           <span class="text-xl md:text-2xl font-semibold">Results</span><br />
@@ -84,3 +94,5 @@
     </div>
   </div>
 </template>
+<style>
+</style>

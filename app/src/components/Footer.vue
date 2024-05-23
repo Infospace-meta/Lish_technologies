@@ -1,5 +1,5 @@
 <template>
-  <body class="font-poppins bg-white">
+  <body class="font-poppins bg-white animate-fadeIn">
     <footer id="footer" class="bg-blue-950 g-center">
       <div class="container mx-auto py-16 px-4">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -37,11 +37,11 @@
               </ul>
             </div>
           </div>
-          
+
           <div class="flex flex-col gap-2 bg-blue-950">
             <div class="text-white font-semibold ml-20 text-2xl">FOLLOW US</div>
             <button
-              class="flex items-center bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+              class="flex items-center bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200"
             >
               <svg
                 class="h-6 w-6 mr-2"
@@ -73,7 +73,7 @@
             </button>
 
             <button
-              class="flex items-center bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+              class="flex items-center bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200"
             >
               <svg
                 class="h-6 w-6 mr-2"
@@ -106,7 +106,7 @@
             </button>
 
             <button
-              class="flex items-center bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+              class="flex items-center bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200"
             >
               <svg
                 class="h-6 w-6 mr-2"
@@ -139,7 +139,7 @@
             </button>
 
             <button
-              class="flex items-center bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+              class="flex items-center bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200"
             >
               <svg
                 class="h-6 w-6 mr-2"
