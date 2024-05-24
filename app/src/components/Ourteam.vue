@@ -7,15 +7,13 @@
       Our Team
     </h1>
     <nav
-<<<<<<< HEAD
-      class="mb-6 ml-4 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 md:ml-8 
-      lg:justify-center lg:items-center lg:gap-6 2xl:ml-48"
-=======
+
+
       class="mb-6 ml-4 md:grid md:grid-cols-2 lg:grid-cols-4 md:ml-8 lg:ml-0 lg:justify-center lg:items-center lg:gap-6 2xl:ml-12"
->>>>>>> 5ddfc67e2d3510eeb04357dad3cbbd29fbeaa3ef
+
     >
     
-      <div class="team-member w-72 relative overflow-hidden">
+      <div class="team-member w-72 relative overflow-hidden p-4">
         <img
           src="@/assets/joe.jpg"
           alt="Joe Smith"
@@ -23,7 +21,7 @@
         />
         <div
           class="member-info absolute bottom-0 left-0 w-full bg-gray-300
-           p-4 transform translate-y-full transition-transform duration-500 ease-in-out justify-center"
+           p-6 transform translate-y-full transition-transform duration-500 ease-in-out justify-center"
         >
           <h2 class="font-black text-xl uppercase">Joe Karanja</h2>
           <p class="font-medium">Role: Software Developer</p>
@@ -39,7 +37,7 @@
         </div>
       </div>
 
-      <div class="team-member w-72 relative overflow-hidden">
+      <div class="team-member w-72 relative overflow-hidden p-4">
         <img
           src="@/assets/manu.jpeg"
           alt="Joe Smith"
@@ -67,7 +65,7 @@
         </div>
       </div>
 
-      <div class="team-member w-72 relative overflow-hidden">
+      <div class="team-member w-72 relative overflow-hidden p-4">
         <img
           src="@/assets/nelson.jpg"
           alt="Joe Smith"
@@ -75,7 +73,7 @@
         />
         <div
           class="member-info absolute bottom-0 left-0 w-full bg-gray-300
-           p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
+           p-8 transform translate-y-full transition-transform duration-500 ease-in-out"
         >
           <h2 class="font-black text-xl uppercase">Nelson Kamau</h2>
           <p class="font-medium">Role: Software Developer</p>
@@ -91,7 +89,30 @@
         </div>
       </div>
 
-      <div class="team-member w-72 relative overflow-hidden">
+      <div class="team-member w-72 relative overflow-hidden p-4">
+        <img
+          src="@/assets/Martin.jpg"
+          alt="Joe Smith"
+          class="w-full h-96 object-cover rounded-lg rounded-b-none"
+        />
+        <div
+          class="member-info absolute bottom-0 left-0 w-full bg-blue-700
+           p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
+        >
+          <h2 class="font-black text-xl uppercase">Martin Ndiragu</h2>
+          <p class="font-medium">Role: Cybersecurity Analyst</p>
+          <p class="font-medium">Specialization: Penetration Tester</p>
+          <p class="font-medium">Skills: Network security</p>
+          <p class="font-medium">Experience: 7 years</p>
+          <div class="social-links flex mt-2">
+            <a href="https://github.com/hartl3y94" target="_blank" class="mr-2">
+              <img src="@/assets/github.png" alt="GitHub" class="w-6 h-6" />
+            </a>
+            <!-- Add other social links here -->
+          </div>
+        </div>
+      </div>
+      <div class="team-member w-72 relative overflow-hidden p-4">
         <img
           src="@/assets/joe.jpg"
           alt="Joe Smith"
@@ -115,7 +136,7 @@
         </div>
       </div>
 
-      <div class="team-member w-72 relative overflow-hidden">
+      <div class="team-member w-72 relative overflow-hidden p-4">
         <img
           src="@/assets/joe.jpg"
           alt="Joe Smith"
@@ -143,7 +164,7 @@
         </div>
       </div>
 
-      <div class="team-member w-72 relative overflow-hidden">
+      <div class="team-member w-72 relative overflow-hidden p-4">
         <img
           src="@/assets/joe.jpg"
           alt="Joe Smith"
@@ -167,9 +188,9 @@
         </div>
       </div>
 
-      <div class="team-member w-72 relative overflow-hidden">
+      <div class="team-member w-72 relative overflow-hidden p-4">
         <img
-          src="@/assets/joe.jpg"
+          src="@/assets/mathias.jpg"
           alt="Joe Smith"
           class="w-full h-96 object-cover rounded-lg rounded-b-none"
         />
@@ -178,10 +199,10 @@
            p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
         >
           <h2 class="font-black text-xl uppercase">Mathias Kipkoech</h2>
-          <p class="font-medium">Role: Software Developer</p>
-          <p class="font-medium">Specialization: Back-end Developer</p>
-          <p class="font-medium">Skills: Laravel, TypeScript</p>
-          <p class="font-medium">Experience: 5 years</p>
+          <p class="font-medium">Role: Cybersecurity Pen-Tester/Software Developer</p>
+          <p class="font-medium">Specialization: Exploit Writting</p>
+          <p class="font-medium">Skills: Web App Pen-tester</p>
+          <p class="font-medium">Experience: 4 years</p>
           <div class="social-links flex mt-2">
             <a
               href="https://github.com/lemiso-professor"
@@ -195,7 +216,7 @@
         </div>
       </div>
 
-      <div class="team-member w-72 relative overflow-hidden">
+      <div class="team-member w-72 relative overflow-hidden p-4">
         <img
           src="@/assets/claire.jpeg"
           alt="Joe Smith"
