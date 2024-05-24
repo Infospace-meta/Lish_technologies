@@ -22,7 +22,7 @@
           </div>
           <div class="lg:w-1/2 flex justify-center lg:justify-end mt-4 lg:mt-0">
             <img
-              src="@/assets/aboutus.gif"
+              src="@/assets/aboutus.png"
               alt="Profile Picture"
               class="w-full lg:w-auto max-w-xs lg:max-w-none mb-4"
             />
