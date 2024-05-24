@@ -7,8 +7,12 @@
       Our Team
     </h1>
     <nav
+<<<<<<< HEAD
       class="mb-6 ml-4 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 md:ml-8 
       lg:justify-center lg:items-center lg:gap-6 2xl:ml-48"
+=======
+      class="mb-6 ml-4 md:grid md:grid-cols-2 lg:grid-cols-4 md:ml-8 lg:ml-0 lg:justify-center lg:items-center lg:gap-6 2xl:ml-12"
+>>>>>>> 5ddfc67e2d3510eeb04357dad3cbbd29fbeaa3ef
     >
     
       <div class="team-member w-72 relative overflow-hidden">
@@ -218,57 +222,9 @@
   </div>
 </template>
 
-<script>
-// Import Three.js library
-import * as THREE from "three";
-
-export default {
-  mounted() {
-    // Create a scene
-    const scene = new THREE.Scene();
-
-    // Create a camera
-    const camera = new THREE.PerspectiveCamera(
-      75,
-      window.innerWidth / window.innerHeight,
-      0.1,
-      1000
-    );
-    camera.position.z = 5;
-
-    // Create a renderer
-    const renderer = new THREE.WebGLRenderer();
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    this.$refs.threeContainer.appendChild(renderer.domElement);
-
-    // Create a cube and add it to the scene
-    const geometry = new THREE.BoxGeometry();
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-    const cube = new THREE.Mesh(geometry, material);
-    scene.add(cube);
-
-    // Animation function
-    const animate = () => {
-      requestAnimationFrame(animate);
-      cube.rotation.x += 0.01;
-      cube.rotation.y += 0.01;
-      renderer.render(scene, camera);
-    };
-
-    // Call animation function
-    animate();
-  },
-};
-</script>
-
 <style scoped>
 .team-member:hover .member-info {
   transform: translateY(0);
-}
-
-.three-js-container {
-  width: 100%;
-  height: 200px; /* Adjust height as needed */
 }
 
 .social-links img {
