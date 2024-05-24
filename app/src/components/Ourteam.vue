@@ -1,21 +1,25 @@
 <template>
   <div>
     <h1
-      class="flex justify-center items-center text-2xl mt-12 font-bold sm:mt-10 sm:text-6xl uppercase mb-14"
+      class="flex justify-center items-center text-2xl mt-12 font-bold 
+      sm:mt-10 sm:text-6xl uppercase mb-14"
     >
       Our Team
     </h1>
     <nav
-      class="mb-6 ml-4 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 md:ml-8 lg:justify-center lg:items-center lg:gap-6 2xl:ml-12"
+      class="mb-6 ml-4 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 md:ml-8 
+      lg:justify-center lg:items-center lg:gap-6 2xl:ml-48"
     >
+    
       <div class="team-member w-72 relative overflow-hidden">
         <img
           src="@/assets/joe.jpg"
           alt="Joe Smith"
-          class="w-full h-96 object-cover rounded-lg rounded-b-none"
+          class="w-full h-96 object-cover rounded-lg rounded-b-none "
         />
         <div
-          class="member-info absolute bottom-0 left-0 w-full bg-gray-300 p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
+          class="member-info absolute bottom-0 left-0 w-full bg-gray-300
+           p-4 transform translate-y-full transition-transform duration-500 ease-in-out justify-center"
         >
           <h2 class="font-black text-xl uppercase">Joe Karanja</h2>
           <p class="font-medium">Role: Software Developer</p>
@@ -38,7 +42,8 @@
           class="w-full h-96 object-cover rounded-lg rounded-b-none"
         />
         <div
-          class="member-info absolute bottom-0 left-0 w-full bg-gray-300 p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
+          class="member-info absolute bottom-0 left-0 w-full bg-gray-300 
+          p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
         >
           <h2 class="font-black text-xl uppercase">Immanuael Kimani</h2>
           <p class="font-medium">Role: Software Developer</p>
@@ -65,7 +70,8 @@
           class="w-full h-96 object-cover rounded-lg rounded-b-none"
         />
         <div
-          class="member-info absolute bottom-0 left-0 w-full bg-gray-300 p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
+          class="member-info absolute bottom-0 left-0 w-full bg-gray-300
+           p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
         >
           <h2 class="font-black text-xl uppercase">Nelson Kamau</h2>
           <p class="font-medium">Role: Software Developer</p>
@@ -88,7 +94,8 @@
           class="w-full h-96 object-cover rounded-lg rounded-b-none"
         />
         <div
-          class="member-info absolute bottom-0 left-0 w-full bg-gray-300 p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
+          class="member-info absolute bottom-0 left-0 w-full bg-gray-300
+           p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
         >
           <h2 class="font-black text-xl uppercase">Geoege Kimiti</h2>
           <p class="font-medium">Role: Software Developer</p>
@@ -111,7 +118,8 @@
           class="w-full h-96 object-cover rounded-lg rounded-b-none"
         />
         <div
-          class="member-info absolute bottom-0 left-0 w-full bg-gray-300 p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
+          class="member-info absolute bottom-0 left-0 w-full bg-gray-300
+           p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
         >
           <h2 class="font-black text-xl uppercase">Ignatius Mbugua</h2>
           <p class="font-medium">Role: Software Developer</p>
@@ -138,7 +146,8 @@
           class="w-full h-96 object-cover rounded-lg rounded-b-none"
         />
         <div
-          class="member-info absolute bottom-0 left-0 w-full bg-gray-300 p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
+          class="member-info absolute bottom-0 left-0 w-full bg-gray-300
+           p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
         >
           <h2 class="font-black text-xl uppercase">Ian Ndegwa</h2>
           <p class="font-medium">Role: Software Developer</p>
@@ -161,7 +170,8 @@
           class="w-full h-96 object-cover rounded-lg rounded-b-none"
         />
         <div
-          class="member-info absolute bottom-0 left-0 w-full bg-gray-300 p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
+          class="member-info absolute bottom-0 left-0 w-full bg-gray-300
+           p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
         >
           <h2 class="font-black text-xl uppercase">Mathias Kipkoech</h2>
           <p class="font-medium">Role: Software Developer</p>
@@ -188,7 +198,8 @@
           class="w-full h-96 object-cover rounded-lg rounded-b-none"
         />
         <div
-          class="member-info absolute bottom-0 left-0 w-full bg-gray-300 p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
+          class="member-info absolute bottom-0 left-0 w-full bg-gray-300
+           p-4 transform translate-y-full transition-transform duration-500 ease-in-out"
         >
           <h2 class="font-black text-xl uppercase">Claire Wambui</h2>
           <p class="font-medium">Role: Software Developer</p>
