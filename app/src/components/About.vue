@@ -52,12 +52,11 @@
               Who we are
             </h2>
             <p class="text-gray-600 text-xs md:text-sm lg:text-base mt-4">
-              [Your Company Name] is a leading provider of [Your Industry or
-              Services]. We specialize in [Specific Services or Solutions],
+              LISH TECH is a leading provider ofsoftware services. We specialize in Software Development,
               offering innovative solutions tailored to meet the unique needs of
               our clients. Our dedicated team excels in delivering high-quality
-              [Products/Services] with a focus on [Your Unique Selling
-              Proposition]. We're committed to [Your Mission or Values],
+              services with a focus on Providing quality services
+              . We're committed to accomplishing our Mission,
               striving to exceed expectations and drive success for our clients.
             </p>
           </div>
