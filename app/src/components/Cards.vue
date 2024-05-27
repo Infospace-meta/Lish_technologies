@@ -3,7 +3,7 @@
     <div
       v-for="(service, index) in services"
       :key="index"
-      class="max-w-sm p-4 transition hover:scale-95 bg-gradient-to-b from-blue-800 to-blue-950 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      class="max-w-sm p-4 transition-transform transform hover:scale-105 bg-gradient-to-b from-blue-800 to-blue-950 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700"
     >
       <!-- Placeholder image -->
       <img
@@ -22,14 +22,14 @@
       <p class="mb-6 font-normal text-sm text-gray-700 dark:text-gray-400">
         {{ service.description }}
       </p>
-      <!--RouterLink-->
+      <!-- RouterLink -->
       <RouterLink
         :to="{ path: '/contact' }"
-        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        class="inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
       >
-        Contact Us
+        <span class="mr-1">Contact Us</span>
         <svg
-          class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+          class="rtl:rotate-180 w-3.5 h-3.5"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -48,10 +48,11 @@
   </div>
   <div class="text-center mt-12">
     <div
-      class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-700 text-5xl font-bold"
+      class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-700 text-5xl font-bold animate-pulse"
     >
-      <span class="text-gray-400 font-bold text-5xl">Categories of </span>
-      <br />Services
+      <span class="text-gray-400 font-bold">Categories of</span>
+      <br />
+      <span class="text-white">Services</span>
     </div>
     <div class="text-black text-2xl mt-6">
       At Lish, we are committed to providing exceptional digital solutions

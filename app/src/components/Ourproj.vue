@@ -1,14 +1,12 @@
 <template>
   <div class="animate-slide-up">
     <!-- Hero Section with Background Image and Animation -->
-    <div class="relative ">
+    <div class="relative">
       <img
         src="@/assets/o.avif"
         class="w-full h-48 sm:h-64 md:h-96 opacity-80 bg-fixed animate-fade-in"
       />
-      <div
-        class="absolute inset-0 flex items-center justify-center  p-4"
-      >
+      <div class="absolute inset-0 flex items-center justify-center p-4">
         <h2
           class="text-white text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-bold text-center"
         >
