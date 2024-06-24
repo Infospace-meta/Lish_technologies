@@ -1,15 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
-import { HomeView, PostsView, DetailsView, LoginView,} from "../views";
+import { HomeView, PostsView, DetailsView, LoginView, ContactView, SignUpFormView, LoginFormView, ServicesView, AboutUsView, TeamView, ProjectsView, TrainingView, NotFoundView} from "../views";
 import { useAuthStore } from "../store";
-import ContactView from "../views/ContactView.vue";
-import SignUpFormView from "../views/SignUpFormView.vue";
-import LoginFormView from "../views/LoginFormView.vue";
-import ServicesView from "../views/servicesView.vue";
-import AboutUsView from "../views/AboutUsView.vue";
-import TeamView from "../views/TeamView.vue";
-import ProjectsView from "../views/ProjectsView.vue";
-import TrainingView from "../views/TrainingView.vue";
-import NotFoundView from "../views/NotFoundView.vue";
+
 
 
 const routes = [
