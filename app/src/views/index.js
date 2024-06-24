@@ -13,4 +13,19 @@ import ProjectsView from "./ProjectsView.vue";
 import TrainingView from "./TrainingView.vue";
 import NotFoundView from "./NotFoundView.vue";
 
-export { HomeView, DetailsView, LoginView, PostsView, PiniaTest, ContactView, SignUpFormView, LoginFormView, ServicesView, AboutUsView, TeamView, ProjectsView, TrainingView, NotFoundView };
+export {
+  HomeView,
+  DetailsView,
+  LoginView,
+  PostsView,
+  PiniaTest,
+  ContactView,
+  SignUpFormView,
+  LoginFormView,
+  ServicesView,
+  AboutUsView,
+  TeamView,
+  ProjectsView,
+  TrainingView,
+  NotFoundView,
+};
